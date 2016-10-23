@@ -1,6 +1,7 @@
 body {background-color: white;}
 
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -18,7 +19,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 18px;
     text-decoration: none;
 }
 
@@ -27,5 +28,21 @@ li a:hover {
 }
 
 
-h1 {font-size: 60px; 
-  font-family: 'Source Sans Pro', sans-serif;}
+h1 {font-size: 50px; 
+  font-family: 'Source Sans Pro', sans-serif;
+color: #111;
+text-align: center;
+}
+
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #111;
+  text-align: center;
+  color: white; 
+}
