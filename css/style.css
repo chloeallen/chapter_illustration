@@ -1,67 +1,31 @@
 body {background-color: white;}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float:left;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
 h1 {font-size: 60px; 
-	font-family: 'Source Sans Pro', sans-serif;}
-header 
-
-
-
-.animation {
-    width: 200px;
-    height: 200px;
-    background: red;
-   
-}
-
-
-.animation:hover {
-    width: 500px;
-    -webkit-transition: width 10s, height 4s; 
-    transition: width 10s, height 4s;
--webkit-transition-timing-function: ease-in-out;
-}
-
-
-
-.animation {
-    width: 100px;
-    height: 100px;
-    background-color:red;
-    -webkit-animation-name: example; 
-    -webkit-animation-duration: 10s; 
-    animation-name: example;
-    animation-duration: 5s;
-    animation-iteration-count: 5;
-    animation-direction: reverse;
-}
-
-
-@-webkit-keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-}
-
-
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-}
-
-
-.focus {
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
- 
-.focus:hover {
-  border: 10px solid #000;
-  border-radius: 10%;
-  height:200px; 
-  width:200px;
-}
-
-.focuspic {height:100px;
-width:100px;}
-
+  font-family: 'Source Sans Pro', sans-serif;}
