@@ -8,21 +8,8 @@ body{
   background-color: #f7f7f7;
 }
 
-a{
-  background:#595959;
-   padding:10px 20px; 
-   color:white; 
-   font-size: 20px; 
-   
 
- }
-
- .chapters {
-  height:100vh; padding-top:20px; font-size: 40px;
- }
-
-
-
+/*header*/
 
 .bird-box{
   position: relative; 
@@ -72,20 +59,47 @@ a{
   background-position: top left;
   position: absolute; /*this makes the bird stay in the center with the rest */
   left: 50%;
-  margin-left: -480px; /*half of 960 */
+  margin-left: -480px; 
 }
+
+/* navigation bar */
+
+a{
+  background:#595959;
+   padding:10px 20px; 
+   color:white; 
+   font-size: 20px; 
+   
+   
+
+ }
+
+ .chapters {
+  height:100vh; padding-top:20px; font-size: 40px;
+
+ }
+
+
+#first {
+height:500px;}
+#second {
+height:500px;}
+#third {
+height:500px;}
+
+
+#top{position:fixed; bottom:0; right:0;}
 
 
 
 .footer {
-  right: 0;
-  bottom: 0;
-  left: 0;
+  position: relative;
   padding: 1rem;
   background-color: #595959;
   text-align: center;
   color: white; 
   font-size: 12px; 
+
 }
 
 
