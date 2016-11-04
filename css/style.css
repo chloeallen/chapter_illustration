@@ -8,35 +8,54 @@ body{
   background-color: #f7f7f7;
 }
 
+a{
+  background:#595959;
+   padding:10px 20px; 
+   color:white; 
+   font-size: 20px; 
+   
+
+ }
+
+ .chapters {
+  height:100vh; padding-top:20px; font-size: 40px;
+ }
+
+
+
 
 .bird-box{
   position: relative; 
   height:600px;
   background-image: url(../images/bird-bg.jpg);
-  background-size: auto 600px;
+  background-size: 100%;
   background-position: top center;
   background-attachment: fixed;
-  overflow: hidden; /* this gets rid of the extra wood that is being shown */
- 
+  overflow: hidden; 
   
 }
- 
-.logo{
+
+.headert{ 
+  background-position: center;
+  font-size: 50px;
+
+}
+
+.headert{
   height: 100px;
   width: 100%;
-  background-image: url(../images/logo.jpg);
-  background-position: center;
   background-repeat: no-repeat;
   position: absolute; /* this will get it down */
-  top: 50%;
-  margin-top: -50px; /* this is pulling the logo back up to the center */
+  top: 70%;
+   font-size: 50px;
+   text-align: center;
+   color: #595959;  
 }
 
 .fore-bird{
   width:690px;
   height: 690px;        
-  /* background-color: rgba(225,30,30,0.5); */
-  background-image: url(../images/fore-bird.png);
+  background-image: url(../images/fore-bir.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
@@ -59,13 +78,15 @@ body{
 
 
 .footer {
-  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #111;
+  background-color: #595959;
   text-align: center;
   color: white; 
   font-size: 12px; 
 }
+
+
+
