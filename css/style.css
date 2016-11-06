@@ -5,15 +5,18 @@
 }
 
 body{
-  background-color: #f7f7f7;
+  background-color: #939393;
+
 }
+
+
 
 
 /*header*/
 
 .bird-box{
   position: relative; 
-  height:600px;
+  height:500px;
   background-image: url(../images/bird-bg.jpg);
   background-size: 100%;
   background-position: top center;
@@ -62,35 +65,87 @@ body{
   margin-left: -480px; 
 }
 
+
 /* navigation bar */
 
-a{
-  background:#595959;
-   padding:10px 20px; 
+
+#nav {
+
+
+width:750px;
+margin:0 auto;
+list-style:none;
+height:100px;
+padding-top:20px;
+}
+
+#nav li {
+float:left;
+}
+
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+ background:#595959;
+   padding:10px 40px; 
    color:white; 
    font-size: 20px; 
+}
+
+
+/*chapter eight */
+
+
+
+.imgA { position:relative;
+
+ left: 25px; 
+
+
+ height:500px;
+
+} 
+.imgB { position:absolute; 
    
+  left:2px;
    
+height: 500px;
 
- }
-
- .chapters {
-  height:100vh; padding-top:20px; font-size: 40px;
-
- }
+}
 
 
-#first {
-height:500px;}
-#second {
-height:500px;}
-#third {
-height:500px;}
+/* chapter two */
+ 
+.imgC 
+{ height:490px;
+  position: relative;
+
+}
+
+.imgCC { height: 490px;
+position: absolute;
+ float: left;
+ left: 3px;}
 
 
-#top{position:fixed; bottom:0; right:0;}
+/* chapter one */
+ #chapterone { }
 
 
+
+
+.polaroid {  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
 
 .footer {
   position: relative;
@@ -101,6 +156,7 @@ height:500px;}
   font-size: 12px; 
 
 }
+
 
 
 
